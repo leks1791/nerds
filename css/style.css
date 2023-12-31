@@ -29,6 +29,9 @@ img {
     margin: 0;
     padding: 0;
 }
+
+/* Header */
+
 .main-header {
     background-color: var(--header-bg-color);
 }
@@ -73,6 +76,14 @@ background-color: var(--light-green);
 
 .btn-yellow {
     background-color: var(--yellow);
+}
+
+/* Main */
+
+.main-title {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
 }
 
 .services-list {
@@ -148,6 +159,21 @@ background-color: var(--light-green);
 .partners-item:active {
     opacity: 10%;
 }
+
+/* Filters */
+
+.filter legend {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px; 
+    text-transform: uppercase;
+  }
+  
+
+  /* .filter-input-checkbox:hover + label,
+  .filter-input-checkbox:focus + label {
+    color: var(--special);
+  } */
 
 /* Main footer */
 
