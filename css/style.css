@@ -162,12 +162,20 @@ background-color: var(--light-green);
 
 /* Filters */
 
+.filter fieldset {
+    border: 0;
+}
+
 .filter legend {
     font-size: 18px;
     font-weight: 700;
     line-height: 30px; 
     text-transform: uppercase;
   }
+
+.filter label{
+    color: var(--dark);
+}
   
 
   /* .filter-input-checkbox:hover + label,
@@ -175,6 +183,66 @@ background-color: var(--light-green);
     color: var(--special);
   } */
 
+/* Sort */
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px; 
+    text-transform: uppercase;
+}
+
+.sort-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sort-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.3;
+}
+.sort-item:hover {
+    opacity: 0.6;
+}
+.sort-item-active {
+    opacity: 1;
+}
+
+/* Good list */
+
+.goods-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-wrap {
+    background-color: var(--header-bg-color);
+    text-align: center;
+}
+
+.goods-descr {
+    color: var(--footer-contact-color);
+}
+
+/* Pagination */
+
+.pagination-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pagination-item {
+    background-color: var(--header-bg-color);
+    border-radius: 3px;
+    font-weight: 500;
+    line-height: 18px;
+}
 /* Main footer */
 
 .footer-contacts {
