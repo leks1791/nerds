@@ -20,6 +20,9 @@ img {
     max-width: 100%;
     height: auto;
   }
+  .page {
+    height: 100%;
+  }
 
 .page-body {
     font-family: "Roboto", Arial, sans-serif;
@@ -28,6 +31,9 @@ img {
     min-width: 1160px;
     margin: 0;
     padding: 0;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
 }
 
 /* Header */
