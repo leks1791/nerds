@@ -20,7 +20,8 @@ img {
     max-width: 100%;
     height: auto;
   }
-  .page {
+
+.page {
     height: 100%;
   }
 
@@ -36,16 +37,35 @@ img {
     grid-template-rows: min-content 1fr min-content;
 }
 
+.container {
+    width: 1160px;;
+    margin: 0 auto;
+}
+
 /* Header */
 
 .main-header {
     background-color: var(--header-bg-color);
+    padding-top: 50px;
+}
+.logo {
+    margin-right: 20px;
 }
 
 .site-nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav {
+    display: grid;
+    grid-template-columns: 160px 1fr min-content;
+    align-items: center;
+
 }
 .main-nav a {
     color: var(--black);
@@ -96,6 +116,9 @@ background-color: var(--light-green);
     padding: 0;
     margin: 0;
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 100px;
 }
 
 .service-title {
@@ -106,6 +129,12 @@ background-color: var(--light-green);
 
 .service-desc {
     color: var(--dark);
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 660px 360px;
+    gap: 150px;
 }
 
 .about-title {
@@ -153,9 +182,13 @@ background-color: var(--light-green);
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .partners-item {
     opacity: 20%;
+    margin-right: 20px;
 }
 .partners-item:hover,
 .partners-item:focus {
@@ -280,6 +313,7 @@ background-color: var(--light-green);
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .social-icon {
@@ -301,11 +335,17 @@ background-color: var(--light-green);
     line-height: 22px;
 }
 
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
 /* Modal */
 
 .modal {
     background: var(--white);
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.40);
+    display: none;
 }
 
 .modal-title {
