@@ -141,7 +141,7 @@ margin-right: 0;
 .slider-content {
     width: 530px;
     margin-bottom: 80px;
-    padding: 78px 0;
+    padding-top: 78px;
 }
 
 .slider-slogan {
@@ -197,6 +197,10 @@ background-color: var(--light-green);
     line-height: 55px;
     font-weight: 500;
 }
+.services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 .services-list {
     padding: 0;
@@ -207,15 +211,36 @@ background-color: var(--light-green);
     gap: 100px;
 }
 
+.services-item {
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+}
+
 .service-title {
+    padding: 0;
+    margin: 0;
     font-size: 24px;
     line-height: 30px;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .service-desc {
+    padding: 0;
+    margin: 0;
     color: var(--dark);
+    margin-bottom: 32px;
 }
+
+.service-img {
+   order: -1;
+   margin-bottom: 25px;
+}
+.service-btn {
+  padding: 17px 40px 15px;
+}
+
 
 .about-wrapper {
     display: grid;
